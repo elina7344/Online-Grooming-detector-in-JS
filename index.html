@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desktop-2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="WARNING-BOT">
+      <img src="warning-bot-head.png" alt="heading" />
+    </div>
+    <div id="elina22-removebg-pre">
+      <img
+        src="elina22-removebg-preview-removebg-preview 2.png"
+        alt="heading"
+      />
+    </div>
+    <div id="Enter-the-message">
+      <img src="Enter the message to check for SPI_.png" alt="heading" />
+    </div>
+
+    <div>
+      <!-- rectangle-3 used in js -->
+      <input type="text" id="rectangle-3" src="Rectangle-3.png" alt="heading" />
+    </div>
+
+    <div id="rectangle-5">
+      <button id="button" onclick="myFunction()">
+        <img src="Rectangle-5.png" alt="heading" />
+      </button>
+    </div>
+
+    <div id="submit">
+      <img src="SUBMIT.png" alt="heading" />
+    </div>
+
+    <div id="warning-bot-response">
+      <img src="Warning-Bot-Response.png" alt="heading" />
+
+      <!-- Javascript -->
+      <script>
+        function myFunction() {
+          //check if a word matches the given string and print DANGEROUS if its not present print
+          var example = "are you single?"+"single?"+"send your nudes"+"have you done anything with a guy"+"want me to hold and kiss you"+"sex?"+"did you have sex then"+"take a warm shower with her lol"+"would u makeout"+"kiss"+"kissing"+"date a guy"+"you home alone?"+"hot wild sex"+"You are such a hottie"+"Hot babe"+"You might just fall for me"+"made my last g/f orgasmm 3-4 times with in 20 mins"+"have you ever done anal?"+"you like to ride a guy"+"guy laying down, you on top going back and forth, up and down"+"yea i'll bring condoms"+"Just eating you;)"+"you looking forward to me coming over?"+"nudes"+"oral"+"anal"+"cum"+"say, what your address?"+"sexy honey"+"full body pics"+"tits"+"clevage"+"I can see down your shirt"+"did you just turn 13 baby"+"are you interested in dating me?"+"fuck"+"fucking"+"panties"+"pussy"+"ass"+"friends with benefits"+"fwb"+"sexy"+"naked"+"phone number"+"will you be my boyfriend"+"will you be my girlfriend"+"gf bf"+"im interested in you"+"suck cock"+"cock"+"first time it hurts"+"pussy"+"in bed with me"+"pregnant"+"fingering"+"dick"+"Hey baby what u doing girl?"+"do you want a baby?"+"u wanna play with me babe?"+"masterbate"+"virgin"+"vagina"+"horny"+"spanking"+"smack"+"drooling"+"puberty"+"when r u over with periods"+"ur menstrual cycle babe"+"safe love"+"protection"+"ride it"+"u wet?"+"ill get you drunk on our honeymoon"+"will you go with me?";
+
+        
+
+          let substring = document.getElementById("rectangle-3").value; //It reads string in double quote but not accepting the inputed value
+
+          if (example.includes(substring)) {
+            document.getElementById("rectangle-4").innerHTML = "DANGEROUS";
+          } else {
+            document.getElementById("rectangle-4").innerHTML = "SAFE";
+          }
+        }
+      </script>
+    </div>
+    <div>
+      <output
+        type="text"
+        id="rectangle-4"
+        src="Rectangle-4.png"
+        alt="heading"
+      ></output>
+    </div>
+
+    <div id="chat-bot">
+      <img src="Chat-bot-pana-1.png" alt="heading" />
+    </div>
+  </body>
+</html>

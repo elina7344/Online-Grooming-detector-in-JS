@@ -1,0 +1,171 @@
+/* SECURE MINOR */
+body {
+    background-color: #181818;
+  }
+.SECURE-MINOR{
+    position: absolute;
+    width: 641px;
+    height: 376px;
+    left: 241px;
+    bottom: 200px;
+    
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 167px;
+    
+    color: #E4ABFF;
+}
+
+.a-secure-room-for-children{
+position: absolute;
+width: 583px;
+height: 60px;
+left: 241px;
+bottom: 250px;
+
+font-family: Play;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFFFFF;
+
+}
+
+.Rectangle-1{
+    position: absolute;
+    width: 497px;
+    height: 97px;
+    left: 241px;
+    top: 510px;
+    
+    /* background: #D1ACFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px; */
+}
+#chat-bot-convo{
+    
+    /* ChatBot Convo */
+    
+    
+    position: absolute;
+    width: 480px;
+    height: 89px;
+    left: 258px;
+    top: 512px;
+    
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    
+    color: #000000;
+
+}
+
+
+.Rectangle-2{
+position: absolute;
+width: 400px;
+height: 80px;
+left: 241px;
+top: 610px;
+
+background: #D1ACFF;
+border-radius: 50px; 
+}
+#Warning-Bot{
+
+    position: absolute;
+    width: 417px;
+    height: 85px;
+    left: 280px;
+    top: 625px;
+    
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    
+    color: #000000;
+
+}
+
+.mobile-inbox-bro-1{
+    position: absolute;
+width: 636px;
+height: 665px;
+left: 800px;
+top: 99px;
+
+background: url(Mobile-inbox-bro-1.png);
+}
+.abstract-lines-png-t
+{
+    position: absolute;
+width: 712px;
+height: 350px;
+left: 1000px;
+top: -23px;
+
+background: url(Abstract-Lines-Png-Transparent-Background-White-Abstract--removebg-preview.png);
+}
+.elina22-removebg-pre
+{
+position: absolute;
+width: 191px;
+height: 214px;
+left: 52px;
+top: 20px;
+
+background: url(elina22-removebg-preview-removebg-preview.png);
+}
+
+.circle-1{
+    position: absolute;
+width: 138px;
+height: 177px;
+left: 620px;
+top: -88px;
+
+background: url(circle-1.png);
+}
+
+.circle-2
+{
+    position: absolute;
+width: 114px;
+height: 95px;
+left: 780px;
+top: 150px;
+
+background: url(circle-2.png);
+}
+
+.circle-3
+{
+    position: absolute;
+width: 74px;
+height: 108px;
+left: 1350px;
+top: 243px;
+
+background: url(circle-3.png);
+}
+
+.circle-4
+{
+    position: absolute;
+width: 138px;
+height: 177px;
+left: 26px;
+top: 400px;
+
+background: url(circle-4.png);
+}
